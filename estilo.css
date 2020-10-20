@@ -1,7 +1,7 @@
 /**Selector Specifity: (0,0,1)*/
 body {
   font-family: Courier, monospace; 
-  font-size: 20px;
+  font-size: 1rem;
   line-height: 1.8;
   background-color: darkslateblue;
   color: whitesmoke;
@@ -13,19 +13,19 @@ body {
 h1{
   background-color: indigo; 
   color: #fff;
-  border-radius: 25px;
+  border-radius: 3rem;
   text-transform: uppercase;
-  padding: 100px 25px;
+  padding: 9rem 2rem;
   text-align: center;     
 }
 
 /**Selector Specifity: (0,0,1)*/
 h2{
   background-color: dodgerblue;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  border-bottom-left-radius: 25px;
-  text-indent: 30px;
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+  text-indent: 2rem;
   text-transform: uppercase;
 }
 
@@ -33,9 +33,9 @@ h2{
 footer{
   background-color: indigo; 
   color: #fff;
-  border-radius: 5px;
-  text-align: right;  
-  padding-right: 10px;
+  border-radius: 1rem;
+  text-align: right;
+  padding-right: 3rem;
 }
 
 /**Selector Specifity: (1,0,0)*/
@@ -50,20 +50,22 @@ th, td{
 
 /**Selector Specifity: (0,0,1)*/
 th{
-  height: 75px;
+  height: 3rem;
   font-style: bold;
   font-size: larger;
 }
 
 /**Selector Specifity: (0,0,1)*/
 td{
-  height: 50px;
+  height: 4rem;
+  text-indent: 1rem;
+  padding-right: 2rem;
 }
 
 /**Selector Specifity: (0,0,1)*/
 nav{
   background-color: indigo;
-  border-radius: 25px;
+  border-radius: 3rem;
   text-align: left;
 }
 
@@ -72,13 +74,14 @@ nav a{
   display: inline-block;
   color:ghostwhite;
   text-align: center;
-  padding: 14px;
+  padding: 1rem;
   text-decoration: none;
 }
 
 /**Selector Specifity: (0,1,2)*/
 nav a:hover{
   background-color: turquoise;
+  color: black;
   border-radius: 25px;
 }
 
@@ -87,9 +90,9 @@ section{
   background-color: blanchedalmond;
   color: black;
   text-align: justify;
-  border-radius: 10px;
-  text-indent: 0.5cm;
-  padding: 00.5cm;
+  border-radius: 2rem;
+  text-indent: 2rem;
+  padding: 2rem;
 }
 
 /**Selector Specifity: (1,0,0)*/
@@ -98,7 +101,8 @@ section{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  padding-top: 25px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 /**Selector Specifity: (1,0,0)*/
@@ -112,8 +116,8 @@ section{
 
 /**Selector Specifity: (1,0,0)*/
 #trailer{
-  border-radius: 10px;
-  width: 20pc;
+  border-radius: 1rem;
+  width: 20rem;
 }
 
 /**Selector Specifity: (1,0,1)*/
@@ -129,7 +133,7 @@ section{
 
 /**Selector Specifity: (1,0,2)*/
 #cast tr td{
-  border: 10px
+  border: 1px solid ghostwhite
 }
 
 /**Selector Specifity: (0,0,1)*/
@@ -144,7 +148,7 @@ aside{
 
 /**Selector Specifity: (1,0,0)*/
 #fotoReview{
-  width: 100px;
+  width: 6rem;
   border-radius: 10px;
 }
 
@@ -157,11 +161,4 @@ aside{
 /**Selector Specifity: (1,0,1)*/
 #review td{
   border: 1px solid black;
-}
-
-/**Selector Specifity: (0,0,1)*/
-td{
-  text-indent: 0.5cm;
-  padding-right: 10px;
-  border: 0cm;
 }
