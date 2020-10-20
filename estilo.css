@@ -165,6 +165,11 @@ aside{
   border: 1px solid black;
 }
 
+/**Selector Specifity: (1,0,1)*/
+#review1 th{
+  border: 1px solid black;
+}
+
 /**Selector Specifity: (1,0,0)*/
 #fotoReview2{
   width: 6rem;
@@ -175,6 +180,11 @@ aside{
 #review2{
   padding-right: 20%;
   text-align: center;
+}
+
+/**Selector Specifity: (1,0,1)*/
+#review2 td{
+  border: 1px solid black;
 }
 
 /**Selector Specifity: (1,0,1)*/
