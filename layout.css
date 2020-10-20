@@ -1,4 +1,6 @@
-body{
-    display: flex;
-    flex-flow: row wrap;
-}
+/*001*/
+body {
+    display: grid;
+    grid-template-columns: auto;
+    grid-column: 1;
+  }
