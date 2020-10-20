@@ -1,0 +1,167 @@
+/**Selector Specifity: (0,0,1)*/
+body {
+  font-family: Courier, monospace; 
+  font-size: 20px;
+  line-height: 1.8;
+  background-color: darkslateblue;
+  color: whitesmoke;
+  margin-left: 10pc;
+  margin-right: 10pc;
+}
+
+/**Selector Specifity: (0,0,1)*/
+h1{
+  background-color: indigo; 
+  color: #fff;
+  border-radius: 25px;
+  text-transform: uppercase;
+  padding: 100px 25px;
+  text-align: center;     
+}
+
+/**Selector Specifity: (0,0,1)*/
+h2{
+  background-color: dodgerblue;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  text-indent: 30px;
+  text-transform: uppercase;
+}
+
+/**Selector Specifity: (0,0,1)*/
+footer{
+  background-color: indigo; 
+  color: #fff;
+  border-radius: 5px;
+  text-align: right;  
+  padding-right: 10px;
+}
+
+/**Selector Specifity: (1,0,0)*/
+#cast {
+  width: 100%;
+}
+
+/**Selector Specifity: (0,0,1)*/
+th, td{
+  border-bottom: 1px solid ghostwhite;
+}
+
+/**Selector Specifity: (0,0,1)*/
+th{
+  height: 75px;
+  font-style: bold;
+  font-size: larger;
+}
+
+/**Selector Specifity: (0,0,1)*/
+td{
+  height: 50px;
+}
+
+/**Selector Specifity: (0,0,1)*/
+nav{
+  background-color: indigo;
+  border-radius: 25px;
+  text-align: left;
+}
+
+/**Selector Specifity: (0,0,2)*/
+nav a{
+  display: inline-block;
+  color:ghostwhite;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/**Selector Specifity: (0,1,2)*/
+nav a:hover{
+  background-color: turquoise;
+  border-radius: 25px;
+}
+
+/**Selector Specifity: (0,0,1)*/
+section{
+  background-color: blanchedalmond;
+  color: black;
+  text-align: justify;
+  border-radius: 10px;
+  text-indent: 0.5cm;
+  padding: 00.5cm;
+}
+
+/**Selector Specifity: (1,0,0)*/
+#poster1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 25px;
+}
+
+/**Selector Specifity: (1,0,0)*/
+#poster2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-radius: 5px;
+}
+
+/**Selector Specifity: (1,0,0)*/
+#trailer{
+  border-radius: 10px;
+  width: 20pc;
+}
+
+/**Selector Specifity: (1,0,1)*/
+#bloqueEfectos p{
+  text-align: center;
+  text-indent: 0cm;
+}
+
+/**Selector Specifity: (1,0,0)*/
+#efectos{
+  width: 20%;
+}
+
+/**Selector Specifity: (1,0,2)*/
+#cast tr td{
+  border: 10px
+}
+
+/**Selector Specifity: (0,0,1)*/
+aside{
+  text-align: center;
+}
+
+/**Selector Specifity: (1,0,0)*/
+#serieOriginal{
+  width: 40%;
+}
+
+/**Selector Specifity: (1,0,0)*/
+#fotoReview{
+  width: 100px;
+  border-radius: 10px;
+}
+
+/**Selector Specifity: (1,0,0)*/
+#review{
+  padding-right: 20%;
+  text-align: center;
+}
+
+/**Selector Specifity: (1,0,1)*/
+#review td{
+  border: 1px solid black;
+}
+
+/**Selector Specifity: (0,0,1)*/
+td{
+  text-indent: 0.5cm;
+  padding-right: 10px;
+  border: 0cm;
+}
