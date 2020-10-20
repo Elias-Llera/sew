@@ -51,7 +51,6 @@ th, td{
 /**Selector Specifity: (0,0,1)*/
 th{
   height: 3rem;
-  font-style: bold;
   font-size: larger;
 }
 
@@ -67,6 +66,7 @@ nav{
   background-color: indigo;
   border-radius: 3rem;
   text-align: left;
+  margin-bottom: 2rem;
 }
 
 /**Selector Specifity: (0,0,2)*/
@@ -93,6 +93,7 @@ section{
   border-radius: 2rem;
   text-indent: 2rem;
   padding: 2rem;
+  margin-bottom: 2rem;
 }
 
 /**Selector Specifity: (1,0,0)*/
@@ -147,18 +148,35 @@ aside{
 }
 
 /**Selector Specifity: (1,0,0)*/
-#fotoReview{
+#fotoReview1{
   width: 6rem;
   border-radius: 10px;
 }
 
 /**Selector Specifity: (1,0,0)*/
-#review{
+#review1{
   padding-right: 20%;
   text-align: center;
 }
 
 /**Selector Specifity: (1,0,1)*/
-#review td{
+#review1 td{
+  border: 1px solid black;
+}
+
+/**Selector Specifity: (1,0,0)*/
+#fotoReview2{
+  width: 6rem;
+  border-radius: 10px;
+}
+
+/**Selector Specifity: (1,0,0)*/
+#review2{
+  padding-right: 20%;
+  text-align: center;
+}
+
+/**Selector Specifity: (1,0,1)*/
+#review2 td{
   border: 1px solid black;
 }
